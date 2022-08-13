@@ -258,6 +258,11 @@ i.fa.fa-arrow-right
         margin-top: 70px;
         margin-left: 0%;
     }
+    .background-image
+    {
+        min-height: 700px;
+        width: 100%;
+    }
 }
 @media (max-width:629px) {
     .main-body

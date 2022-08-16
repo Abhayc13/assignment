@@ -332,6 +332,10 @@ i.fa.fa-arrow-right
     {
         margin-bottom: 10px;
     }
+    .image-text1 p
+    {
+        max-width: none;
+    }
 }
 @media (max-width:629px) {
     .main-body
@@ -404,6 +408,10 @@ i.fa.fa-arrow-right
         max-width: none;
     }
     .card2
+    {
+        max-width: none;
+    }
+    .image-text1 p
     {
         max-width: none;
     }

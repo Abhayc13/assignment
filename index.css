@@ -308,7 +308,7 @@ i.fa.fa-arrow-right
     }
     .cards1
     {
-        margin-top: 0px;
+        margin-top: 40px;
     }
     .card1
     {
@@ -325,8 +325,12 @@ i.fa.fa-arrow-right
     }
     .background-image
     {
-        min-height: 700px;
+        min-height: 608px;
         width: 100%;
+    }
+    .left-side p
+    {
+        margin-bottom: 10px;
     }
 }
 @media (max-width:629px) {
@@ -384,5 +388,23 @@ i.fa.fa-arrow-right
     {
         margin-left: 0%;
         flex-basis: 35%;
+    }
+}
+@media (min-width:768px) and (max-width:959px) {
+    .main-section1
+    {
+        display: block;
+    }
+    .cards1
+    {
+        max-width: none;
+    }
+    .card1
+    {
+        max-width: none;
+    }
+    .card2
+    {
+        max-width: none;
     }
 }
